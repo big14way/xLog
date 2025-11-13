@@ -11,6 +11,10 @@
 
 xLog is a blogging platform that runs on the Crossbell blockchain. It is open source, decentralized, and free. It is a community of bloggers who share their thoughts and ideas with each other. It is a place where you can find the latest news and trends of Web2, Web3, and the real world.
 
+### WalletConnect Integration
+
+xLog features WalletConnect v2 integration for seamless wallet connectivity across mobile and desktop platforms.
+
 ## Features
 
 ![](https://i.imgur.com/S0PbFjg.png)
