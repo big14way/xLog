@@ -13,7 +13,17 @@ xLog is a blogging platform that runs on the Crossbell blockchain. It is open so
 
 ### WalletConnect Integration
 
-xLog features WalletConnect v2 integration for seamless wallet connectivity across mobile and desktop platforms.
+xLog features enhanced WalletConnect v2 integration powered by Reown AppKit, providing seamless wallet connectivity across mobile and desktop platforms alongside Crossbell Connect Kit.
+
+**Features:**
+- WalletConnect v2 with QR code modal for mobile wallet connections
+- Support for Crossbell chain and cross-chain operations
+- JoyID integration for Web2-style authentication
+- Automatic wallet reconnection and session management
+- Multiple wallet connector options (MetaMask, WalletConnect, JoyID)
+
+**Configuration:**
+The WalletConnect Project ID is set via `NEXT_PUBLIC_WALLET_CONNECT_V2_PROJECT_ID` environment variable. See `.env.example` for complete configuration options.
 
 ## Features
 
