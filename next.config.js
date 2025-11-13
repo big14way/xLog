@@ -57,7 +57,12 @@ module.exports = withBundleAnalyzer(
     },
 
     async generateBuildId() {
-      return execSync(lastCommitCommand).toString().trim()
+      try {
+        return execSync(lastCommitCommand).toString().trim()
+      } catch (error) {
+        // Fallback for non-git environments (e.g., Vercel)
+        return `build-${Date.now()}`
+      }
     },
 
     serverRuntimeConfig: {
